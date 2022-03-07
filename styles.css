@@ -343,6 +343,12 @@
     }
 }
 @media screen and (max-width: 1200px) {
+    .aligntext{
+        display: initial;
+    }
+    .aligntext1{
+        display: initial;
+    }
     .grid-item1 img{
         height: 40%;
     }
