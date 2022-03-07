@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----------topmost bar-------------------- */
+.topmost{
+    padding: 0.8%;
+    background: linear-gradient(to right,rgb(252, 250, 176),rgb(206, 160, 243));
+    color: black;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.tml{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+.tml>img{
+    height: 1rem;
+    width: 1rem;
+    outline: 1px solid black;
+    outline-offset: -2.5px;
+    transform: skewX(-18deg);
+}
+
+/* -------------------nav bar -------------------------- */
+.padd{
+    padding: 1.2% 3%;
+}
+.arrow{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    top: -4px;
+    left: 0.6rem;
+    transform: rotate(45deg);
+}
+.aligntext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aligntext1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 60rem;
+    gap: 4%;
+}
+.decbut:hover{
+    background:  linear-gradient(to right , rgb(255, 187, 0), white);
+    color: black;
+}
+
+/* -----------general styles ------------ */
+
+.bg-color{
+    padding-top: 3%;
+    background-color: rgba(248, 234, 237, 0.3);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bg-color h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 98%;
+}
+.bg-color p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 120%;
+}
+
+/* ------------part 1 --------------------------- */
+.part1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.image{
+    width: 35vw;
+}
+.content{
+    width: 30%;
+}
+
+/* icon - grid */
+.parent {
+    display: grid;
+    width: min-content;
+    height: min-content;
+    grid-template-columns: repeat(5, 13vw);
+    grid-template-rows: repeat(2, 40%);
+    justify-content: center;
+    align-content: center;
+}
+.grid-item img{
+    height:60%;
+}
+.align-cnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 3% 2% 0% 2%;
+}
+
+
+/* button and link styles */
+.decobtn{
+    padding: 1%;
+    width: 15rem;
+    background-color: rgb(255, 187, 0);
+    margin-right: 2%;
+    margin-left: 18%;
+}
+.decobtn:hover{
+    background: linear-gradient(to right, rgb(98, 3, 161) ,rgb(255,187,0))
+}
+.decolink{
+    font-size: 1.3rem;
+    color: rgb(122, 10, 197);
+}
+
+
+/* -------------------- part 2 cards------------------ */
+.align-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+.card1{
+    max-width: 500px;
+}
+.card-body1{
+    max-width: 400px;
+}
+.page2-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 2%;;
+    margin-top: 5%;
+}
+.page2-align h1{
+    max-width: 600px;
+    font-size: 3rem;
+}
+
+/* -------------------- page 3 ------------------------ */
+.big-card{
+    /* max-width: 80%; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10%;
+    max-width: 65rem;
+    padding: 3%;
+    margin-top: 5%;
+}
+.cont{
+    width: 40%;
+}
+.page3-align{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 5%;
+}
+.page3-align h1{
+    font-size: 3rem;
+}
+.workbtn{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+    padding: 1%;
+    text-align: left;
+    background-color: white;
+}
+.workbtn:hover{
+    
+    background: linear-gradient(to right ,rgb(255, 187, 0) , white);
+}
+
+/* ---------------- Carousel --------------------- */
+.floatprop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15%;
+}
+.flexprop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10%;
+    gap: 15%;
+}
+.smalllink{
+    font-size: 18px;
+    color: rgb(122, 10, 197) ;
+
+}
+.brand{
+    color:black;
+    font-size: 18px;
+}
+.brand:hover{
+    text-decoration: none;
+
+}
+
+/* -----------------page4------------------- */
+.page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.page4 h1{
+    font-size: 3rem;
+}
+.card2{
+    max-width: 320px;
+}
+.card-img-top{
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+.card2:hover{
+    color:rgb(122, 10, 197) ;
+    box-shadow:0px 0px 8px 6px rgb(226, 224, 224);
+    transition: all 0.15s;
+}
+/* ------------------------- page 5 ----------------- */
+
+.parent1 {
+    /* background-color: palegoldenrod; */
+    display: grid;
+    grid-template-columns: repeat(6, 10.4vw);
+    grid-template-rows: repeat(2, 10vh);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.grid-item1 img{
+    height: auto;
+}
+.workbtn1{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+    padding: 2.7%;
+    background-color:rgb(255, 187, 0) ;
+    text-align: left;
+}
+.workbtn1:hover{
+    background: linear-gradient(to right ,rgb(122, 10, 197)  ,rgb(255, 187, 0) );
+}
+.content1{
+    width: 35%;
+    margin:3% auto 5% 14%;
+}
+
+
+/* --------------ending---------------- */
+
+.linkch{
+    display: block;
+    color: black;
+    margin: 2%;
+    font-size: 0.9rem;
+    margin: 4%;
+}
+.linkch:hover{
+    text-decoration: none;
+    color: initial;
+}
+.endpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% 4% 3% 4%;
+    align-items: flex-start;
+    gap: 8px;
+}
+.endblock{
+    flex-basis: 190px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.lastlink{
+    color: black;
+    text-decoration: underline;
+    padding: 1%;
+    margin: 3%;
+    margin-left: 0;
+}
+.linkss{
+    flex-basis: 600px;
+}
+
+/* ---------------- media queries ----------------- */
+
+@media screen and (max-width: 1400px){
+    .aligntext1{
+        width:70vw;
+        gap:1%;
+    }
+    .aligntext{
+        justify-content: center;
+        width:70vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .grid-item1 img{
+        height: 40%;
+    }
+    .parent1{
+        grid-template-columns: repeat(6, 15vw);
+    }
+    .content1{
+        width: 50%;
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 940px){
+    .grid-item img{
+        height: 45%;
+    }
+    .grid-item1 img{
+        height: 40%;
+    }
+    .parent1{
+        grid-template-columns: repeat(6, 15vw);
+    }
+    .flexprop{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:800px){
+    .image{
+        width: 80vw;
+    }
+    .content{
+        width: max-content;
+    }
+    .bg-color h1{
+        font-size: 2.2rem;
+    }
+    .bg-color p{
+        font-size: 1.1rem;
+    }
+    .decobtn , .page3-align h1 .content1{
+        margin-left: 3%;
+    }
+    .cont{
+        width: 90%;
+    }
+}
+@media screen and (max-width:750px) {
+    .parent1{
+        grid-template-columns: repeat(2, 40vw);
+        grid-template-rows: repeat(6, 3rem);
+        grid-column-gap: 0px;
+        grid-row-gap: 6%;
+        margin: 90px auto;
+    }
+    .grid-item1 img{
+        height: 70%;
+    }
+    .content1{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .grid-item img{
+        height : 40%;
+    }
+   .page2-align h1 , .page3-align h1 , .page4 h1{
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .grid-item img{
+        height: 30%;
+    }
+    .card1{
+        width: 90%;
+    }
+    .card2{
+        width: 90%;
+    }
+}
+@media screen and (max-width:480px) {
+    .parent{
+        grid-template-columns: repeat(2, 40vw);
+        grid-template-rows: repeat(5, 3.2rem);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .bg-color h1{
+        font-size: 2.0rem;
+    }
+    .bg-color p{
+        font-size: 1rem;
+    }
+    .grid-item img{
+        height: 80%;
+    }
+    .grid-item1 img{
+        height: 2em;
+    }
+    .decobtn{
+        padding: 10rem;
+        padding: 3%;
+    }
+    .decolink{
+        display: block;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    .big-card{
+        width: 100%;
+    }
+    .big-card img{
+        height: 50vh;
+    }
+    .page2-align h1 , .page3-align h1, .page4 h1{
+        font-size: 1.7rem;
+        margin-left: 3%;
+    }
+    
+}
