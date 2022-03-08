@@ -501,5 +501,20 @@
         font-size: 1.7rem;
         margin-left: 3%;
     }
-    
+    .respoimg{
+        height: 35vw;
+        width: auto;
+    }
+    .flexprop{
+        padding: 20%;
+    }
+    .screenwidth{
+        width: 99vw;
+    }
+    .check img{
+        width: 80px;
+    }
+    .fontstyle{
+        font-size: 12px;
+    }
 }
