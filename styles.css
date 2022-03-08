@@ -207,12 +207,17 @@
     background: linear-gradient(to right ,rgb(255, 187, 0) , white);
 }
 
+
 /* ---------------- Carousel --------------------- */
 .floatprop{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 15%;
+    gap: 10%;
+}
+.carousel-indicators > li {
+  border-radius: 50%;
+  background-color: black;
 }
 .flexprop{
     display: flex;
@@ -222,7 +227,8 @@
     align-items: flex-start;
     width: 100%;
     padding: 10%;
-    gap: 15%;
+    /* margin: 10%; */
+    gap: 10%;
 }
 .smalllink{
     font-size: 18px;
@@ -235,8 +241,26 @@
 }
 .brand:hover{
     text-decoration: none;
-
 }
+.respoimg{
+    width: 180px;
+}
+.rowss {
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(1,100%);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.fontstyle{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.screenwidth{
+    max-width: 1050px;
+}
+
 
 /* -----------------page4------------------- */
 .page4{
