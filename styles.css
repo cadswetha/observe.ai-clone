@@ -393,6 +393,17 @@
     .cont{
         width: 90%;
     }
+    .rowss {
+        display: grid;
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: repeat(2,50%);
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .flexprop{
+        padding: 15%;
+    }
 }
 @media screen and (max-width:750px) {
     .parent1{
