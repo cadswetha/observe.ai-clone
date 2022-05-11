@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 0.9rem;
 }
 /* -----------topmost bar-------------------- */
 .topmost{
@@ -52,6 +53,9 @@
     flex-wrap: nowrap;
     width: 60rem;
     gap: 4%;
+}
+.decbut{
+    width: 15rem;
 }
 .decbut:hover{
     background:  linear-gradient(to right , rgb(255, 187, 0), white);
